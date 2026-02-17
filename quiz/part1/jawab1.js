@@ -9,6 +9,17 @@ let input = [
                 ["0004", "Bintang Senjaya", "Martapura", "6/4/1970", "Berkebun"]
             ]
 
+function dataHandling(argumen) {
+    for (let i = 0; i < argumen.length; i++) {
+        console.log(`Nomor ID : ${argumen[i][0]}`);
+        console.log(`Nama Lengkap : ${argumen[i][1]}`);
+        console.log(`TTL : ${argumen[i][2]} ${argumen[i][3]}`);
+        console.log(`Hobi : ${argumen[i][4]}`);
+        console.log();
+    }
+}
+dataHandling(input);
+
 /*
 output yang diharapkan
 
